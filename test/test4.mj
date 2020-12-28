@@ -1,0 +1,17 @@
+// Test1
+
+program test1
+
+	int niz[];
+{
+	void main()
+		int x;	
+	{
+		niz= new int[2];
+		niz[0] = 1;
+		niz[1] = 7;
+		niz[0] += niz[1]++;
+		print(niz[1]);
+		print(niz[0]);
+	}
+}

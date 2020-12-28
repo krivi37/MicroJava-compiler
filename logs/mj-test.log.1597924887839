@@ -1,0 +1,178 @@
+INFO  13:59:22,644 - Compiling source file: C:\Users\Krivi\Desktop\New folder (2)\MJCompiler\test\test1.mj
+INFO  13:59:22,675 - #2 program
+INFO  13:59:22,675 - #20 test1
+INFO  13:59:22,675 - #20 int
+INFO  13:59:22,676 - #20 niz
+INFO  13:59:22,676 - #5 [
+INFO  13:59:22,676 - #6 ]
+INFO  13:59:22,676 - #7 ;
+INFO  13:59:22,676 - #3 {
+INFO  13:59:22,677 - #14 void
+INFO  13:59:22,677 - #20 main
+INFO  13:59:22,677 - #8 (
+INFO  13:59:22,678 - #9 )
+INFO  13:59:22,678 - #20 int
+INFO  13:59:22,678 - #20 a
+INFO  13:59:22,678 - #10 ,
+INFO  13:59:22,678 - #20 b
+INFO  13:59:22,678 - #10 ,
+INFO  13:59:22,678 - #20 max
+INFO  13:59:22,679 - #7 ;
+INFO  13:59:22,679 - #3 {
+INFO  13:59:22,679 - #20 a
+INFO  13:59:22,679 - #13 =
+INFO  13:59:22,682 - #18 2
+INFO  13:59:22,682 - #7 ;
+INFO  13:59:22,683 - #20 b
+INFO  13:59:22,683 - #13 =
+INFO  13:59:22,683 - #18 1
+INFO  13:59:22,683 - #7 ;
+INFO  13:59:22,683 - #22 if
+INFO  13:59:22,683 - #8 (
+INFO  13:59:22,683 - #20 a
+INFO  13:59:22,683 - #45 >
+ERROR 13:59:22,684 - 
+Sintaksna greska na liniji 12
+INFO  13:59:22,684 - #20 b
+INFO  13:59:22,684 - #9 )
+INFO  13:59:22,684 - #20 max
+INFO  13:59:22,684 - #13 =
+INFO  13:59:22,684 - #20 a
+INFO  13:59:22,684 - #7 ;
+INFO  13:59:22,684 - #23 else
+INFO  13:59:22,684 - #20 max
+INFO  13:59:22,684 - #13 =
+INFO  13:59:22,685 - #20 b
+INFO  13:59:22,685 - #7 ;
+INFO  13:59:22,685 - #4 }
+INFO  13:59:22,685 - #4 }
+ERROR 13:59:22,685 - Uspjesan oporavak od greske pri dodjeli vrednosti na liniji 12
+INFO  13:59:22,692 - Program(
+  ProgName(
+   test1
+  ) [ProgName]
+  ProgDecl(
+    NoDecl(
+    ) [NoDecl]
+    DeclItemDerived2(
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        SingleVarDecl(
+          ArrayDecl(
+           niz
+          ) [ArrayDecl]
+        ) [SingleVarDecl]
+      ) [VarDeclList]
+    ) [DeclItemDerived2]
+  ) [ProgDecl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      VoidMethod(
+       main
+      ) [VoidMethod]
+      NoFormParam(
+      ) [NoFormParam]
+      MethodVarParams(
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarDecls(
+            VarDecls(
+              SingleVarDecl(
+                VarDeclSingle(
+                 a
+                ) [VarDeclSingle]
+              ) [SingleVarDecl]
+              VarDeclSingle(
+               b
+              ) [VarDeclSingle]
+            ) [VarDecls]
+            VarDeclSingle(
+             max
+            ) [VarDeclSingle]
+          ) [VarDecls]
+        ) [VarDeclList]
+      ) [MethodVarParams]
+      Statements(
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            MatchedStmt(
+              DesStatement(
+                Assignment(
+                  DesignatorNoExpr(
+                   a
+                  ) [DesignatorNoExpr]
+                  Assign(
+                  ) [Assign]
+                  RightSideExpr(
+                    Expression(
+                      TermExpr(
+                        FactorExpr(
+                          Const(
+                            NumConst(
+                             2
+                            ) [NumConst]
+                          ) [Const]
+                        ) [FactorExpr]
+                      ) [TermExpr]
+                    ) [Expression]
+                  ) [RightSideExpr]
+                ) [Assignment]
+              ) [DesStatement]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            DesStatement(
+              Assignment(
+                DesignatorNoExpr(
+                 b
+                ) [DesignatorNoExpr]
+                Assign(
+                ) [Assign]
+                RightSideExpr(
+                  Expression(
+                    TermExpr(
+                      FactorExpr(
+                        Const(
+                          NumConst(
+                           1
+                          ) [NumConst]
+                        ) [Const]
+                      ) [FactorExpr]
+                    ) [TermExpr]
+                  ) [Expression]
+                ) [RightSideExpr]
+              ) [Assignment]
+            ) [DesStatement]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          DesStatement(
+            ErrAssignment(
+            ) [ErrAssignment]
+          ) [DesStatement]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  13:59:22,693 - ===================================
+INFO  13:59:22,693 - Pocetak programa  test1 na liniji 3
+INFO  13:59:22,693 - Deklarisana lokalna promjenljiva(niz) niz na liniji 5
+INFO  13:59:22,693 - Obradjuje se funkcija main na liniji 7
+INFO  13:59:22,693 - Deklarisana lokalna promjenljiva a na liniji 8
+INFO  13:59:22,693 - Deklarisana lokalna promjenljiva b na liniji 8
+INFO  13:59:22,693 - Deklarisana lokalna promjenljiva max na liniji 8
+INFO  13:59:22,694 - Pristupa se dezignatoru a na liniji 10
+INFO  13:59:22,694 - Pristupa se dezignatoru b na liniji 11
+INFO  13:59:22,694 -  Print count calls = 0
+INFO  13:59:22,694 -  Deklarisanih promenljivih ima = 1
+INFO  13:59:22,694 -  Konstanti ima = 0
+ERROR 13:59:22,695 - Parsiranje NIJE uspesno zavrseno!

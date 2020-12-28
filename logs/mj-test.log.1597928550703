@@ -1,0 +1,136 @@
+INFO  15:01:58,196 - Compiling source file: C:\Users\Krivi\Desktop\New folder (2)\MJCompiler\test\test2.mj
+INFO  15:01:58,228 - #2 program
+INFO  15:01:58,228 - #20 test2
+INFO  15:01:58,228 - #20 int
+INFO  15:01:58,229 - #20 niz
+INFO  15:01:58,229 - #5 [
+INFO  15:01:58,229 - #6 ]
+INFO  15:01:58,229 - #7 ;
+INFO  15:01:58,230 - #3 {
+INFO  15:01:58,230 - #14 void
+INFO  15:01:58,231 - #20 main
+INFO  15:01:58,231 - #8 (
+INFO  15:01:58,231 - #9 )
+INFO  15:01:58,231 - #20 int
+INFO  15:01:58,231 - #20 x
+INFO  15:01:58,231 - #10 ,
+INFO  15:01:58,231 - #20 y
+INFO  15:01:58,232 - #7 ;
+INFO  15:01:58,232 - #3 {
+INFO  15:01:58,232 - #20 x
+INFO  15:01:58,232 - #13 =
+INFO  15:01:58,232 - #18 5
+INFO  15:01:58,233 - #7 ;
+INFO  15:01:58,236 - #11 print
+INFO  15:01:58,236 - #8 (
+INFO  15:01:58,236 - #20 x
+INFO  15:01:58,236 - #9 )
+INFO  15:01:58,236 - #7 ;
+INFO  15:01:58,236 - #4 }
+INFO  15:01:58,236 - #4 }
+INFO  15:01:58,245 - Program(
+  ProgName(
+   test2
+  ) [ProgName]
+  ProgDecl(
+    NoDecl(
+    ) [NoDecl]
+    DeclItemDerived2(
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        SingleVarDecl(
+          ArrayDecl(
+           niz
+          ) [ArrayDecl]
+        ) [SingleVarDecl]
+      ) [VarDeclList]
+    ) [DeclItemDerived2]
+  ) [ProgDecl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      VoidMethod(
+       main
+      ) [VoidMethod]
+      NoFormParam(
+      ) [NoFormParam]
+      MethodVarParams(
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarDecls(
+            SingleVarDecl(
+              VarDeclSingle(
+               x
+              ) [VarDeclSingle]
+            ) [SingleVarDecl]
+            VarDeclSingle(
+             y
+            ) [VarDeclSingle]
+          ) [VarDecls]
+        ) [VarDeclList]
+      ) [MethodVarParams]
+      Statements(
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          MatchedStmt(
+            DesStatement(
+              Assignment(
+                DesignatorNoExpr(
+                 x
+                ) [DesignatorNoExpr]
+                Assign(
+                ) [Assign]
+                RightSideExpr(
+                  Expression(
+                    TermExpr(
+                      FactorExpr(
+                        Const(
+                          NumConst(
+                           5
+                          ) [NumConst]
+                        ) [Const]
+                      ) [FactorExpr]
+                    ) [TermExpr]
+                  ) [Expression]
+                ) [RightSideExpr]
+              ) [Assignment]
+            ) [DesStatement]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          PrintStmt(
+            Expression(
+              TermExpr(
+                FactorExpr(
+                  Var(
+                    DesignatorNoExpr(
+                     x
+                    ) [DesignatorNoExpr]
+                  ) [Var]
+                ) [FactorExpr]
+              ) [TermExpr]
+            ) [Expression]
+          ) [PrintStmt]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:01:58,245 - ===================================
+INFO  15:01:58,245 - Pocetak programa  test2 na liniji 3
+INFO  15:01:58,245 - Deklarisana lokalna promjenljiva(niz) niz na liniji 5
+INFO  15:01:58,245 - Obradjuje se funkcija main na liniji 8
+INFO  15:01:58,245 - Deklarisana lokalna promjenljiva x na liniji 9
+INFO  15:01:58,245 - Deklarisana lokalna promjenljiva y na liniji 9
+INFO  15:01:58,245 - Pristupa se dezignatoru x na liniji 11
+INFO  15:01:58,246 - Pristupa se dezignatoru x na liniji 12
+INFO  15:01:58,246 -  Print count calls = 1
+INFO  15:01:58,246 -  Deklarisanih promenljivih ima = 1
+INFO  15:01:58,246 -  Konstanti ima = 0
+INFO  15:01:58,254 - Parsiranje uspesno zavrseno!

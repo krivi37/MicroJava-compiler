@@ -1,0 +1,62 @@
+INFO  03:03:13,132 - Compiling source file: C:\Users\Krivi\Desktop\New folder\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  03:03:13,176 - #2 program
+INFO  03:03:13,176 - #20 MJProgram
+INFO  03:03:13,176 - #15 const
+INFO  03:03:13,177 - #20 bool
+INFO  03:03:13,177 - #20 jedan
+INFO  03:03:13,178 - #13 =
+INFO  03:03:13,178 - #21 false
+INFO  03:03:13,178 - #7 ;
+INFO  03:03:13,178 - #3 {
+INFO  03:03:13,179 - #20 int
+INFO  03:03:13,179 - #20 main
+INFO  03:03:13,179 - #8 (
+INFO  03:03:13,180 - #9 )
+INFO  03:03:13,180 - #3 {
+INFO  03:03:13,181 - #4 }
+INFO  03:03:13,181 - #4 }
+INFO  03:03:13,201 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ProgDecl(
+    NoDecl(
+    ) [NoDecl]
+    DeclItemDerived1(
+      ConstDeclarationsList(
+        Type(
+         bool
+        ) [Type]
+        SingleConstDecl(
+          ConstDeclaration(
+           jedan
+            BoolConst(
+             false
+            ) [BoolConst]
+          ) [ConstDeclaration]
+        ) [SingleConstDecl]
+      ) [ConstDeclarationsList]
+    ) [DeclItemDerived1]
+  ) [ProgDecl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodName(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethodName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoMethodVarParams(
+      ) [NoMethodVarParams]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  03:03:13,201 - ===================================
+INFO  03:03:14,981 - Pocetak programa  MJProgram na liniji 1
+INFO  03:03:28,029 - Nova konstanta jedan na liniji 2

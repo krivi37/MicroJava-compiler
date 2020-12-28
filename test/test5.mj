@@ -1,0 +1,20 @@
+// Test2
+
+program test2
+
+	int niz[];
+{
+	void main()
+		int x, y;	
+	{
+		niz= new int[3];
+		niz[0] = 1;
+		niz[1] = 7;
+		niz[niz[0]]++;
+		print(niz[1]);
+		print(niz[0]);
+		x = niz[1]--;
+		print(x);
+		print(niz[1]);
+	}
+}

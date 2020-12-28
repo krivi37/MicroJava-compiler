@@ -1,0 +1,149 @@
+INFO  15:36:18,084 - Compiling source file: C:\Users\Krivi\Desktop\New folder\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  15:36:18,115 - #2 program
+INFO  15:36:18,115 - #20 MJProgram
+INFO  15:36:18,115 - #20 int
+INFO  15:36:18,116 - #20 niz
+INFO  15:36:18,116 - #5 [
+INFO  15:36:18,116 - #6 ]
+INFO  15:36:18,116 - #7 ;
+INFO  15:36:18,116 - #3 {
+INFO  15:36:18,117 - #20 int
+INFO  15:36:18,118 - #20 main
+INFO  15:36:18,118 - #8 (
+INFO  15:36:18,118 - #9 )
+INFO  15:36:18,118 - #3 {
+INFO  15:36:18,119 - #20 niz
+INFO  15:36:18,119 - #13 =
+INFO  15:36:18,119 - #16 new
+INFO  15:36:18,119 - #20 int
+INFO  15:36:18,119 - #5 [
+INFO  15:36:18,120 - #18 1
+INFO  15:36:18,120 - #6 ]
+INFO  15:36:18,120 - #17 read
+ERROR 15:36:18,121 - 
+Sintaksna greska na liniji 7
+INFO  15:36:18,121 - #8 (
+INFO  15:36:18,121 - #20 niz
+INFO  15:36:18,121 - #5 [
+INFO  15:36:18,121 - #18 0
+INFO  15:36:18,121 - #6 ]
+INFO  15:36:18,121 - #9 )
+INFO  15:36:18,121 - #7 ;
+INFO  15:36:18,121 - #11 print
+INFO  15:36:18,121 - #8 (
+INFO  15:36:18,121 - #20 niz
+ERROR 15:36:18,122 - Uspjesan oporavak od greske pri dodjeli vrednosti na liniji 6
+INFO  15:36:18,122 - #5 [
+INFO  15:36:18,122 - #18 0
+INFO  15:36:18,122 - #6 ]
+INFO  15:36:18,122 - #9 )
+INFO  15:36:18,123 - #7 ;
+INFO  15:36:18,123 - #12 return
+INFO  15:36:18,123 - #18 0
+INFO  15:36:18,123 - #7 ;
+INFO  15:36:18,123 - #4 }
+INFO  15:36:18,123 - #4 }
+INFO  15:36:18,132 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ProgDecl(
+    NoDecl(
+    ) [NoDecl]
+    DeclItemDerived2(
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        SingleVarDecl(
+          ArrayDecl(
+           niz
+          ) [ArrayDecl]
+        ) [SingleVarDecl]
+      ) [VarDeclList]
+    ) [DeclItemDerived2]
+  ) [ProgDecl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodName(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethodName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoMethodVarParams(
+      ) [NoMethodVarParams]
+      Statements(
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            MatchedStmt(
+              DesStatement(
+                ErrAssignment(
+                ) [ErrAssignment]
+              ) [DesStatement]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            PrintStmt(
+              Expression(
+                TermExpr(
+                  FactorExpr(
+                    Var(
+                      DesignatorExpr(
+                        DesignatorNoExpr(
+                         niz
+                        ) [DesignatorNoExpr]
+                        Expression(
+                          TermExpr(
+                            FactorExpr(
+                              Const(
+                                NumConst(
+                                 0
+                                ) [NumConst]
+                              ) [Const]
+                            ) [FactorExpr]
+                          ) [TermExpr]
+                        ) [Expression]
+                      ) [DesignatorExpr]
+                    ) [Var]
+                  ) [FactorExpr]
+                ) [TermExpr]
+              ) [Expression]
+            ) [PrintStmt]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          ReturnExpr(
+            Expression(
+              TermExpr(
+                FactorExpr(
+                  Const(
+                    NumConst(
+                     0
+                    ) [NumConst]
+                  ) [Const]
+                ) [FactorExpr]
+              ) [TermExpr]
+            ) [Expression]
+          ) [ReturnExpr]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:36:18,133 - ===================================
+INFO  15:36:18,133 - Pocetak programa  MJProgram na liniji 1
+INFO  15:36:18,133 - Deklarisana lokalna promjenljiva(niz) niz na liniji 2
+INFO  15:36:18,133 - Obradjuje se funkcija main na liniji 5
+INFO  15:36:18,133 - Pristupa se dezignatoru niz na liniji 8
+INFO  15:36:18,134 - 	Pristup elementu niza niz na liniji 8
+INFO  15:36:18,134 -  Print count calls = 1
+INFO  15:36:18,134 -  Deklarisanih promenljivih ima = 1
+INFO  15:36:18,134 -  Konstanti ima = 0
+ERROR 15:36:18,135 - Parsiranje NIJE uspesno zavrseno!

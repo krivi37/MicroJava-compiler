@@ -1,0 +1,27 @@
+INFO  04:32:39,360 - Compiling source file: C:\Users\Krivi\Desktop\New folder\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  04:32:39,390 - #2 program
+INFO  04:32:39,390 - #20 test301
+INFO  04:32:39,390 - #15 const
+INFO  04:32:39,390 - #20 int
+INFO  04:32:39,391 - #20 nula
+INFO  04:32:39,391 - #13 =
+INFO  04:32:39,391 - #18 0
+INFO  04:32:39,391 - #7 ;
+INFO  04:32:39,391 - #15 const
+INFO  04:32:39,392 - #20 int
+INFO  04:32:39,392 - #20 jedan
+INFO  04:32:39,392 - #13 =
+INFO  04:32:39,392 - #18 1
+INFO  04:32:39,392 - #7 ;
+INFO  04:32:39,392 - #15 const
+INFO  04:32:39,392 - #20 int
+INFO  04:32:39,392 - #20 pet
+INFO  04:32:39,392 - #13 =
+INFO  04:32:39,392 - #18 5
+INFO  04:32:39,392 - #7 ;
+INFO  04:32:39,394 - #15 const
+INFO  04:32:39,394 - #20 char
+INFO  04:32:39,394 - #13 =
+ERROR 04:32:39,394 - 
+Sintaksna greska na liniji 6
+ERROR 04:32:39,394 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 6

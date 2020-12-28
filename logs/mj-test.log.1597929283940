@@ -1,0 +1,145 @@
+INFO  15:13:12,931 - Compiling source file: C:\Users\Krivi\Desktop\New folder (2)\MJCompiler\test\test2.mj
+INFO  15:13:12,966 - #2 program
+INFO  15:13:12,966 - #20 test2
+INFO  15:13:12,966 - #20 int
+INFO  15:13:12,967 - #20 niz
+INFO  15:13:12,967 - #5 [
+INFO  15:13:12,967 - #6 ]
+INFO  15:13:12,967 - #7 ;
+INFO  15:13:12,968 - #3 {
+INFO  15:13:12,968 - #14 void
+INFO  15:13:12,969 - #20 main
+INFO  15:13:12,969 - #8 (
+INFO  15:13:12,969 - #9 )
+INFO  15:13:12,969 - #20 int
+INFO  15:13:12,969 - #20 x
+INFO  15:13:12,969 - #10 ,
+INFO  15:13:12,969 - #20 y
+INFO  15:13:12,969 - #7 ;
+INFO  15:13:12,970 - #3 {
+INFO  15:13:12,970 - #20 x
+INFO  15:13:12,970 - #13 =
+INFO  15:13:12,970 - #20 y
+INFO  15:13:12,971 - #13 =
+ERROR 15:13:12,971 - 
+Sintaksna greska na liniji 11
+INFO  15:13:12,971 - #18 5
+INFO  15:13:12,971 - #7 ;
+INFO  15:13:12,971 - #11 print
+INFO  15:13:12,972 - #8 (
+INFO  15:13:12,972 - #20 x
+ERROR 15:13:12,972 - Uspjesan oporavak od greske pri dodjeli vrednosti na liniji 11
+INFO  15:13:12,973 - #9 )
+INFO  15:13:12,973 - #7 ;
+INFO  15:13:12,973 - #11 print
+INFO  15:13:12,973 - #8 (
+INFO  15:13:12,973 - #20 y
+INFO  15:13:12,973 - #9 )
+INFO  15:13:12,974 - #7 ;
+INFO  15:13:12,974 - #4 }
+INFO  15:13:12,974 - #4 }
+INFO  15:13:12,982 - Program(
+  ProgName(
+   test2
+  ) [ProgName]
+  ProgDecl(
+    NoDecl(
+    ) [NoDecl]
+    DeclItemDerived2(
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        SingleVarDecl(
+          ArrayDecl(
+           niz
+          ) [ArrayDecl]
+        ) [SingleVarDecl]
+      ) [VarDeclList]
+    ) [DeclItemDerived2]
+  ) [ProgDecl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      VoidMethod(
+       main
+      ) [VoidMethod]
+      NoFormParam(
+      ) [NoFormParam]
+      MethodVarParams(
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarDecls(
+            SingleVarDecl(
+              VarDeclSingle(
+               x
+              ) [VarDeclSingle]
+            ) [SingleVarDecl]
+            VarDeclSingle(
+             y
+            ) [VarDeclSingle]
+          ) [VarDecls]
+        ) [VarDeclList]
+      ) [MethodVarParams]
+      Statements(
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            MatchedStmt(
+              DesStatement(
+                ErrAssignment(
+                ) [ErrAssignment]
+              ) [DesStatement]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            PrintStmt(
+              Expression(
+                TermExpr(
+                  FactorExpr(
+                    Var(
+                      DesignatorNoExpr(
+                       x
+                      ) [DesignatorNoExpr]
+                    ) [Var]
+                  ) [FactorExpr]
+                ) [TermExpr]
+              ) [Expression]
+            ) [PrintStmt]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          PrintStmt(
+            Expression(
+              TermExpr(
+                FactorExpr(
+                  Var(
+                    DesignatorNoExpr(
+                     y
+                    ) [DesignatorNoExpr]
+                  ) [Var]
+                ) [FactorExpr]
+              ) [TermExpr]
+            ) [Expression]
+          ) [PrintStmt]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:13:12,982 - ===================================
+INFO  15:13:12,982 - Pocetak programa  test2 na liniji 3
+INFO  15:13:12,982 - Deklarisana lokalna promjenljiva(niz) niz na liniji 5
+INFO  15:13:12,982 - Obradjuje se funkcija main na liniji 8
+INFO  15:13:12,983 - Deklarisana lokalna promjenljiva x na liniji 9
+INFO  15:13:12,983 - Deklarisana lokalna promjenljiva y na liniji 9
+INFO  15:13:12,983 - Pristupa se dezignatoru x na liniji 12
+INFO  15:13:12,983 - Pristupa se dezignatoru y na liniji 13
+INFO  15:13:12,983 -  Print count calls = 2
+INFO  15:13:12,983 -  Deklarisanih promenljivih ima = 1
+INFO  15:13:12,983 -  Konstanti ima = 0
+ERROR 15:13:12,985 - Parsiranje NIJE uspesno zavrseno!

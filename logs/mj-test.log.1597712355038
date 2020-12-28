@@ -1,0 +1,106 @@
+INFO  01:59:12,265 - Compiling source file: C:\Users\Krivi\Desktop\New folder\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  01:59:12,336 - #2 program
+INFO  01:59:12,336 - #20 MJProgram
+INFO  01:59:12,336 - #3 {
+INFO  01:59:12,337 - #20 int
+INFO  01:59:12,338 - #20 main
+INFO  01:59:12,338 - #8 (
+INFO  01:59:12,338 - #9 )
+INFO  01:59:12,339 - #20 int
+INFO  01:59:12,339 - #20 bodovi
+INFO  01:59:12,339 - #10 ,
+INFO  01:59:12,339 - #20 a
+INFO  01:59:12,340 - #5 [
+INFO  01:59:12,340 - #6 ]
+INFO  01:59:12,340 - #7 ;
+INFO  01:59:12,340 - #3 {
+INFO  01:59:12,341 - #20 bodovi
+INFO  01:59:12,341 - #13 =
+INFO  01:59:12,342 - #20 a
+INFO  01:59:12,342 - #5 [
+INFO  01:59:12,342 - #18 0
+INFO  01:59:12,342 - #6 ]
+INFO  01:59:12,345 - #7 ;
+INFO  01:59:12,346 - #4 }
+INFO  01:59:12,346 - #4 }
+INFO  01:59:12,353 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  NoDecl(
+  ) [NoDecl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodName(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethodName]
+      NoFormParam(
+      ) [NoFormParam]
+      MethodVarParams(
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarDecls(
+            SingleVarDecl(
+              VarDeclSingle(
+               bodovi
+              ) [VarDeclSingle]
+            ) [SingleVarDecl]
+            ArrayDecl(
+             a
+            ) [ArrayDecl]
+          ) [VarDecls]
+        ) [VarDeclList]
+      ) [MethodVarParams]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        MatchedStmt(
+          DesStatement(
+            Assignment(
+              DesignatorNoExpr(
+               bodovi
+              ) [DesignatorNoExpr]
+              Assign(
+              ) [Assign]
+              Expression(
+                TermExpr(
+                  FactorExpr(
+                    Var(
+                      DesignatorExpr(
+                       a
+                        Expression(
+                          TermExpr(
+                            FactorExpr(
+                              Const(
+                                ConstValDerived1(
+                                 0
+                                ) [ConstValDerived1]
+                              ) [Const]
+                            ) [FactorExpr]
+                          ) [TermExpr]
+                        ) [Expression]
+                      ) [DesignatorExpr]
+                    ) [Var]
+                  ) [FactorExpr]
+                ) [TermExpr]
+              ) [Expression]
+            ) [Assignment]
+          ) [DesStatement]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  01:59:12,354 - ===================================
+INFO  01:59:13,262 - Pocetak programa  MJProgram na liniji 1
+INFO  01:59:13,262 - Obradjuje se funkcija main na liniji 3
+INFO  01:59:13,262 - Deklarisana lokalna promjenljiva bodovi na liniji 3
+INFO  01:59:13,262 - Deklarisana lokalna promjenljiva(niz) a na liniji 3
+INFO  01:59:13,262 - Pristupa se dezignatoru bodovi na liniji 4

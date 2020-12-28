@@ -1,0 +1,14 @@
+// Test1
+
+program test1
+
+	int niz[];
+{
+	void main()
+	int a,b, max;
+	{
+		a = 2;
+		b = 1;
+		if(a > b) max = a; else max = b;
+	}
+}

@@ -1,0 +1,205 @@
+INFO  12:50:27,203 - Compiling source file: C:\Users\Krivi\Desktop\New folder\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  12:50:27,232 - #2 program
+INFO  12:50:27,232 - #20 MJProgram
+INFO  12:50:27,232 - #20 int
+INFO  12:50:27,233 - #20 niz
+INFO  12:50:27,233 - #5 [
+INFO  12:50:27,233 - #6 ]
+INFO  12:50:27,233 - #7 ;
+INFO  12:50:27,233 - #20 int
+INFO  12:50:27,234 - #20 x
+INFO  12:50:27,234 - #7 ;
+INFO  12:50:27,234 - #20 int
+INFO  12:50:27,234 - #20 y
+INFO  12:50:27,234 - #7 ;
+INFO  12:50:27,235 - #3 {
+INFO  12:50:27,235 - #20 int
+INFO  12:50:27,235 - #20 main
+INFO  12:50:27,235 - #8 (
+INFO  12:50:27,235 - #9 )
+INFO  12:50:27,236 - #3 {
+INFO  12:50:27,236 - #20 x
+INFO  12:50:27,236 - #13 =
+INFO  12:50:27,239 - #18 5
+INFO  12:50:27,239 - #7 ;
+INFO  12:50:27,240 - #20 y
+INFO  12:50:27,240 - #13 =
+INFO  12:50:27,240 - #20 x
+INFO  12:50:27,240 - #7 ;
+INFO  12:50:27,240 - #11 print
+INFO  12:50:27,240 - #8 (
+INFO  12:50:27,240 - #20 x
+INFO  12:50:27,240 - #9 )
+INFO  12:50:27,241 - #7 ;
+INFO  12:50:27,241 - #12 return
+INFO  12:50:27,241 - #18 0
+INFO  12:50:27,241 - #7 ;
+INFO  12:50:27,241 - #4 }
+INFO  12:50:27,241 - #4 }
+INFO  12:50:27,249 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ProgDecl(
+    ProgDecl(
+      ProgDecl(
+        NoDecl(
+        ) [NoDecl]
+        DeclItemDerived2(
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            SingleVarDecl(
+              ArrayDecl(
+               niz
+              ) [ArrayDecl]
+            ) [SingleVarDecl]
+          ) [VarDeclList]
+        ) [DeclItemDerived2]
+      ) [ProgDecl]
+      DeclItemDerived2(
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          SingleVarDecl(
+            VarDeclSingle(
+             x
+            ) [VarDeclSingle]
+          ) [SingleVarDecl]
+        ) [VarDeclList]
+      ) [DeclItemDerived2]
+    ) [ProgDecl]
+    DeclItemDerived2(
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        SingleVarDecl(
+          VarDeclSingle(
+           y
+          ) [VarDeclSingle]
+        ) [SingleVarDecl]
+      ) [VarDeclList]
+    ) [DeclItemDerived2]
+  ) [ProgDecl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodName(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethodName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoMethodVarParams(
+      ) [NoMethodVarParams]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              NoStmt(
+              ) [NoStmt]
+              MatchedStmt(
+                DesStatement(
+                  Assignment(
+                    DesignatorNoExpr(
+                     x
+                    ) [DesignatorNoExpr]
+                    Assign(
+                    ) [Assign]
+                    RightSideExpr(
+                      Expression(
+                        TermExpr(
+                          FactorExpr(
+                            Const(
+                              NumConst(
+                               5
+                              ) [NumConst]
+                            ) [Const]
+                          ) [FactorExpr]
+                        ) [TermExpr]
+                      ) [Expression]
+                    ) [RightSideExpr]
+                  ) [Assignment]
+                ) [DesStatement]
+              ) [MatchedStmt]
+            ) [Statements]
+            MatchedStmt(
+              DesStatement(
+                Assignment(
+                  DesignatorNoExpr(
+                   y
+                  ) [DesignatorNoExpr]
+                  Assign(
+                  ) [Assign]
+                  RightSideExpr(
+                    Expression(
+                      TermExpr(
+                        FactorExpr(
+                          Var(
+                            DesignatorNoExpr(
+                             x
+                            ) [DesignatorNoExpr]
+                          ) [Var]
+                        ) [FactorExpr]
+                      ) [TermExpr]
+                    ) [Expression]
+                  ) [RightSideExpr]
+                ) [Assignment]
+              ) [DesStatement]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            PrintStmt(
+              Expression(
+                TermExpr(
+                  FactorExpr(
+                    Var(
+                      DesignatorNoExpr(
+                       x
+                      ) [DesignatorNoExpr]
+                    ) [Var]
+                  ) [FactorExpr]
+                ) [TermExpr]
+              ) [Expression]
+            ) [PrintStmt]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          ReturnExpr(
+            Expression(
+              TermExpr(
+                FactorExpr(
+                  Const(
+                    NumConst(
+                     0
+                    ) [NumConst]
+                  ) [Const]
+                ) [FactorExpr]
+              ) [TermExpr]
+            ) [Expression]
+          ) [ReturnExpr]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  12:50:27,250 - ===================================
+INFO  12:50:27,250 - Pocetak programa  MJProgram na liniji 1
+INFO  12:50:27,250 - Deklarisana lokalna promjenljiva(niz) niz na liniji 2
+INFO  12:50:27,250 - Deklarisana lokalna promjenljiva x na liniji 3
+INFO  12:50:27,250 - Deklarisana lokalna promjenljiva y na liniji 4
+INFO  12:50:27,250 - Obradjuje se funkcija main na liniji 7
+INFO  12:50:27,250 - Pristupa se dezignatoru x na liniji 8
+INFO  12:50:27,250 - Pristupa se dezignatoru y na liniji 9
+INFO  12:50:27,251 - Pristupa se dezignatoru x na liniji 9
+INFO  12:50:27,251 - Pristupa se dezignatoru x na liniji 10
+INFO  12:50:27,251 -  Print count calls = 1
+INFO  12:50:27,251 -  Deklarisanih promenljivih ima = 3
+INFO  12:50:27,251 -  Konstanti ima = 0
+INFO  12:50:27,261 - Parsiranje uspesno zavrseno!

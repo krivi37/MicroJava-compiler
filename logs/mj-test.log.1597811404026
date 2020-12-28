@@ -1,0 +1,146 @@
+INFO  06:29:22,977 - Compiling source file: C:\Users\Krivi\Desktop\New folder\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  06:29:23,010 - #2 program
+INFO  06:29:23,010 - #20 MJProgram
+INFO  06:29:23,010 - #20 int
+INFO  06:29:23,011 - #20 x
+INFO  06:29:23,011 - #7 ;
+INFO  06:29:23,012 - #3 {
+INFO  06:29:23,012 - #20 int
+INFO  06:29:23,013 - #20 main
+INFO  06:29:23,013 - #8 (
+INFO  06:29:23,013 - #9 )
+INFO  06:29:23,013 - #3 {
+INFO  06:29:23,014 - #20 x
+INFO  06:29:23,014 - #13 =
+INFO  06:29:23,014 - #18 1
+INFO  06:29:23,015 - #7 ;
+INFO  06:29:23,015 - #20 x
+INFO  06:29:23,016 - #31 +=
+INFO  06:29:23,016 - #18 1
+INFO  06:29:23,017 - #7 ;
+INFO  06:29:23,017 - #12 return
+INFO  06:29:23,017 - #20 x
+INFO  06:29:23,017 - #7 ;
+INFO  06:29:23,017 - #4 }
+INFO  06:29:23,017 - #4 }
+INFO  06:29:23,026 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ProgDecl(
+    NoDecl(
+    ) [NoDecl]
+    DeclItemDerived2(
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        SingleVarDecl(
+          VarDeclSingle(
+           x
+          ) [VarDeclSingle]
+        ) [SingleVarDecl]
+      ) [VarDeclList]
+    ) [DeclItemDerived2]
+  ) [ProgDecl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodName(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethodName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoMethodVarParams(
+      ) [NoMethodVarParams]
+      Statements(
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            MatchedStmt(
+              DesStatement(
+                Assignment(
+                  DesignatorNoExpr(
+                   x
+                  ) [DesignatorNoExpr]
+                  Assign(
+                  ) [Assign]
+                  RightSideExpr(
+                    Expression(
+                      TermExpr(
+                        FactorExpr(
+                          Const(
+                            NumConst(
+                             1
+                            ) [NumConst]
+                          ) [Const]
+                        ) [FactorExpr]
+                      ) [TermExpr]
+                    ) [Expression]
+                  ) [RightSideExpr]
+                ) [Assignment]
+              ) [DesStatement]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            DesStatement(
+              Assignment(
+                DesignatorNoExpr(
+                 x
+                ) [DesignatorNoExpr]
+                AssignAdd(
+                  AddRight(
+                  ) [AddRight]
+                ) [AssignAdd]
+                RightSideExpr(
+                  Expression(
+                    TermExpr(
+                      FactorExpr(
+                        Const(
+                          NumConst(
+                           1
+                          ) [NumConst]
+                        ) [Const]
+                      ) [FactorExpr]
+                    ) [TermExpr]
+                  ) [Expression]
+                ) [RightSideExpr]
+              ) [Assignment]
+            ) [DesStatement]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          ReturnExpr(
+            Expression(
+              TermExpr(
+                FactorExpr(
+                  Var(
+                    DesignatorNoExpr(
+                     x
+                    ) [DesignatorNoExpr]
+                  ) [Var]
+                ) [FactorExpr]
+              ) [TermExpr]
+            ) [Expression]
+          ) [ReturnExpr]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  06:29:23,026 - ===================================
+INFO  06:29:23,026 - Pocetak programa  MJProgram na liniji 1
+INFO  06:29:23,026 - Deklarisana lokalna promjenljiva x na liniji 2
+INFO  06:29:23,026 - Obradjuje se funkcija main na liniji 5
+INFO  06:29:23,026 - Pristupa se dezignatoru x na liniji 6
+INFO  06:29:23,026 - Pristupa se dezignatoru x na liniji 7
+INFO  06:29:23,027 - Pristupa se dezignatoru x na liniji 8
+INFO  06:29:23,027 -  Print count calls = 0
+INFO  06:29:23,027 -  Deklarisanih promenljivih ima = 1
+INFO  06:29:23,027 -  Konstanti ima = 0
+INFO  06:29:23,036 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,187 @@
+INFO  12:48:16,638 - Compiling source file: C:\Users\Krivi\Desktop\New folder\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  12:48:16,682 - #2 program
+INFO  12:48:16,682 - #20 MJProgram
+INFO  12:48:16,682 - #20 int
+INFO  12:48:16,683 - #20 niz
+INFO  12:48:16,684 - #5 [
+INFO  12:48:16,684 - #6 ]
+INFO  12:48:16,684 - #7 ;
+INFO  12:48:16,684 - #20 int
+INFO  12:48:16,685 - #20 x
+INFO  12:48:16,685 - #7 ;
+INFO  12:48:16,685 - #20 int
+INFO  12:48:16,685 - #20 y
+INFO  12:48:16,685 - #7 ;
+INFO  12:48:16,685 - #3 {
+INFO  12:48:16,685 - #20 int
+INFO  12:48:16,686 - #20 main
+INFO  12:48:16,686 - #8 (
+INFO  12:48:16,686 - #9 )
+INFO  12:48:16,687 - #3 {
+INFO  12:48:16,687 - #20 x
+INFO  12:48:16,688 - #13 =
+INFO  12:48:16,688 - #18 5
+INFO  12:48:16,689 - #7 ;
+INFO  12:48:16,690 - #20 x
+INFO  12:48:16,690 - #30 --
+INFO  12:48:16,690 - #7 ;
+INFO  12:48:16,690 - #11 print
+INFO  12:48:16,690 - #8 (
+INFO  12:48:16,690 - #20 x
+INFO  12:48:16,690 - #9 )
+INFO  12:48:16,690 - #7 ;
+INFO  12:48:16,691 - #12 return
+INFO  12:48:16,691 - #18 0
+INFO  12:48:16,691 - #7 ;
+INFO  12:48:16,691 - #4 }
+INFO  12:48:16,691 - #4 }
+INFO  12:48:16,702 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ProgDecl(
+    ProgDecl(
+      ProgDecl(
+        NoDecl(
+        ) [NoDecl]
+        DeclItemDerived2(
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            SingleVarDecl(
+              ArrayDecl(
+               niz
+              ) [ArrayDecl]
+            ) [SingleVarDecl]
+          ) [VarDeclList]
+        ) [DeclItemDerived2]
+      ) [ProgDecl]
+      DeclItemDerived2(
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          SingleVarDecl(
+            VarDeclSingle(
+             x
+            ) [VarDeclSingle]
+          ) [SingleVarDecl]
+        ) [VarDeclList]
+      ) [DeclItemDerived2]
+    ) [ProgDecl]
+    DeclItemDerived2(
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        SingleVarDecl(
+          VarDeclSingle(
+           y
+          ) [VarDeclSingle]
+        ) [SingleVarDecl]
+      ) [VarDeclList]
+    ) [DeclItemDerived2]
+  ) [ProgDecl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodName(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethodName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoMethodVarParams(
+      ) [NoMethodVarParams]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              NoStmt(
+              ) [NoStmt]
+              MatchedStmt(
+                DesStatement(
+                  Assignment(
+                    DesignatorNoExpr(
+                     x
+                    ) [DesignatorNoExpr]
+                    Assign(
+                    ) [Assign]
+                    RightSideExpr(
+                      Expression(
+                        TermExpr(
+                          FactorExpr(
+                            Const(
+                              NumConst(
+                               5
+                              ) [NumConst]
+                            ) [Const]
+                          ) [FactorExpr]
+                        ) [TermExpr]
+                      ) [Expression]
+                    ) [RightSideExpr]
+                  ) [Assignment]
+                ) [DesStatement]
+              ) [MatchedStmt]
+            ) [Statements]
+            MatchedStmt(
+              DesStatement(
+                Dec(
+                  DesignatorNoExpr(
+                   x
+                  ) [DesignatorNoExpr]
+                ) [Dec]
+              ) [DesStatement]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            PrintStmt(
+              Expression(
+                TermExpr(
+                  FactorExpr(
+                    Var(
+                      DesignatorNoExpr(
+                       x
+                      ) [DesignatorNoExpr]
+                    ) [Var]
+                  ) [FactorExpr]
+                ) [TermExpr]
+              ) [Expression]
+            ) [PrintStmt]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          ReturnExpr(
+            Expression(
+              TermExpr(
+                FactorExpr(
+                  Const(
+                    NumConst(
+                     0
+                    ) [NumConst]
+                  ) [Const]
+                ) [FactorExpr]
+              ) [TermExpr]
+            ) [Expression]
+          ) [ReturnExpr]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  12:48:16,702 - ===================================
+INFO  12:48:16,703 - Pocetak programa  MJProgram na liniji 1
+INFO  12:48:16,703 - Deklarisana lokalna promjenljiva(niz) niz na liniji 2
+INFO  12:48:16,703 - Deklarisana lokalna promjenljiva x na liniji 3
+INFO  12:48:16,703 - Deklarisana lokalna promjenljiva y na liniji 4
+INFO  12:48:16,703 - Obradjuje se funkcija main na liniji 7
+INFO  12:48:16,703 - Pristupa se dezignatoru x na liniji 8
+INFO  12:48:16,703 - Pristupa se dezignatoru x na liniji 9
+INFO  12:48:16,703 - Pristupa se dezignatoru x na liniji 10
+INFO  12:48:16,703 -  Print count calls = 1
+INFO  12:48:16,704 -  Deklarisanih promenljivih ima = 3
+INFO  12:48:16,704 -  Konstanti ima = 0

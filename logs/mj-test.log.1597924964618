@@ -1,0 +1,56 @@
+INFO  14:01:27,842 - Compiling source file: C:\Users\Krivi\Desktop\New folder (2)\MJCompiler\test\test1.mj
+INFO  14:01:27,873 - #2 program
+INFO  14:01:27,873 - #20 test1
+INFO  14:01:27,873 - #20 int
+INFO  14:01:27,874 - #20 niz
+INFO  14:01:27,874 - #5 [
+INFO  14:01:27,874 - #6 ]
+INFO  14:01:27,874 - #7 ;
+INFO  14:01:27,874 - #3 {
+INFO  14:01:27,875 - #14 void
+INFO  14:01:27,875 - #20 main
+INFO  14:01:27,876 - #8 (
+INFO  14:01:27,876 - #9 )
+INFO  14:01:27,876 - #20 int
+INFO  14:01:27,876 - #20 a
+INFO  14:01:27,876 - #10 ,
+INFO  14:01:27,876 - #20 b
+INFO  14:01:27,876 - #10 ,
+INFO  14:01:27,877 - #20 max
+INFO  14:01:27,877 - #7 ;
+INFO  14:01:27,877 - #3 {
+INFO  14:01:27,877 - #20 a
+INFO  14:01:27,877 - #13 =
+INFO  14:01:27,880 - #18 2
+INFO  14:01:27,880 - #7 ;
+INFO  14:01:27,881 - #20 b
+INFO  14:01:27,881 - #13 =
+INFO  14:01:27,881 - #18 1
+INFO  14:01:27,881 - #7 ;
+INFO  14:01:27,881 - #22 if
+INFO  14:01:27,881 - #8 (
+INFO  14:01:27,881 - #20 a
+INFO  14:01:27,882 - #45 >
+ERROR 14:01:27,882 - 
+Sintaksna greska na liniji 12
+INFO  14:01:27,882 - #20 b
+INFO  14:01:27,882 - #9 )
+INFO  14:01:27,882 - #3 {
+INFO  14:01:27,882 - #20 max
+INFO  14:01:27,882 - #13 =
+INFO  14:01:27,882 - #20 a
+INFO  14:01:27,883 - #7 ;
+INFO  14:01:27,883 - #4 }
+INFO  14:01:27,883 - #23 else
+INFO  14:01:27,883 - #3 {
+INFO  14:01:27,883 - #20 max
+INFO  14:01:27,883 - #13 =
+INFO  14:01:27,883 - #20 b
+INFO  14:01:27,883 - #7 ;
+INFO  14:01:27,883 - #4 }
+INFO  14:01:27,883 - #4 }
+INFO  14:01:27,883 - #4 }
+ERROR 14:01:27,883 - Uspjesan oporavak od greske pri dodjeli vrednosti na liniji 12
+ERROR 14:01:27,884 - 
+Sintaksna greska na liniji 16
+ERROR 14:01:27,884 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 16

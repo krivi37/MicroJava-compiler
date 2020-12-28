@@ -1,0 +1,5 @@
+INFO  09:22:01,638 - Compiling source file: C:\Users\Krivi\Desktop\New folder (2)\MJCompiler\test\program.obj
+INFO  09:22:01,668 - #20 MJ
+ERROR 09:22:01,668 - 
+Sintaksna greska na liniji 1
+ERROR 09:22:01,669 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 1

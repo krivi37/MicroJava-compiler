@@ -1,0 +1,231 @@
+INFO  04:23:30,097 - Compiling source file: C:\Users\Krivi\Desktop\New folder\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  04:23:30,142 - #2 program
+INFO  04:23:30,142 - #20 MJProgram
+INFO  04:23:30,142 - #20 int
+INFO  04:23:30,144 - #20 niz
+INFO  04:23:30,144 - #5 [
+INFO  04:23:30,144 - #6 ]
+INFO  04:23:30,144 - #7 ;
+INFO  04:23:30,144 - #3 {
+INFO  04:23:30,145 - #20 int
+INFO  04:23:30,146 - #20 main
+INFO  04:23:30,146 - #8 (
+INFO  04:23:30,146 - #9 )
+INFO  04:23:30,147 - #3 {
+INFO  04:23:30,147 - #20 niz
+INFO  04:23:30,148 - #13 =
+INFO  04:23:30,148 - #16 new
+INFO  04:23:30,148 - #20 int
+INFO  04:23:30,149 - #5 [
+INFO  04:23:30,149 - #18 3
+INFO  04:23:30,149 - #6 ]
+INFO  04:23:30,149 - #7 ;
+INFO  04:23:30,150 - #20 niz
+INFO  04:23:30,150 - #5 [
+INFO  04:23:30,150 - #20 niz
+INFO  04:23:30,151 - #5 [
+INFO  04:23:30,151 - #18 1
+INFO  04:23:30,151 - #6 ]
+INFO  04:23:30,151 - #6 ]
+INFO  04:23:30,151 - #13 =
+INFO  04:23:30,151 - #18 5
+INFO  04:23:30,151 - #7 ;
+INFO  04:23:30,151 - #11 print
+INFO  04:23:30,151 - #8 (
+INFO  04:23:30,151 - #20 niz
+INFO  04:23:30,151 - #5 [
+INFO  04:23:30,152 - #18 2
+INFO  04:23:30,152 - #6 ]
+INFO  04:23:30,152 - #9 )
+INFO  04:23:30,152 - #7 ;
+INFO  04:23:30,152 - #12 return
+INFO  04:23:30,152 - #18 1
+INFO  04:23:30,152 - #7 ;
+INFO  04:23:30,152 - #4 }
+INFO  04:23:30,153 - #4 }
+INFO  04:23:30,168 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ProgDecl(
+    NoDecl(
+    ) [NoDecl]
+    DeclItemDerived2(
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        SingleVarDecl(
+          ArrayDecl(
+           niz
+          ) [ArrayDecl]
+        ) [SingleVarDecl]
+      ) [VarDeclList]
+    ) [DeclItemDerived2]
+  ) [ProgDecl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodName(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethodName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoMethodVarParams(
+      ) [NoMethodVarParams]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              NoStmt(
+              ) [NoStmt]
+              MatchedStmt(
+                DesStatement(
+                  Assignment(
+                    DesignatorNoExpr(
+                     niz
+                    ) [DesignatorNoExpr]
+                    Assign(
+                    ) [Assign]
+                    RightSideExpr(
+                      Expression(
+                        TermExpr(
+                          FactorExpr(
+                            NewArrayType(
+                              Type(
+                               int
+                              ) [Type]
+                              Expression(
+                                TermExpr(
+                                  FactorExpr(
+                                    Const(
+                                      NumConst(
+                                       3
+                                      ) [NumConst]
+                                    ) [Const]
+                                  ) [FactorExpr]
+                                ) [TermExpr]
+                              ) [Expression]
+                            ) [NewArrayType]
+                          ) [FactorExpr]
+                        ) [TermExpr]
+                      ) [Expression]
+                    ) [RightSideExpr]
+                  ) [Assignment]
+                ) [DesStatement]
+              ) [MatchedStmt]
+            ) [Statements]
+            MatchedStmt(
+              DesStatement(
+                Assignment(
+                  DesignatorExpr(
+                    DesignatorNoExpr(
+                     niz
+                    ) [DesignatorNoExpr]
+                    Expression(
+                      TermExpr(
+                        FactorExpr(
+                          Var(
+                            DesignatorExpr(
+                              DesignatorNoExpr(
+                               niz
+                              ) [DesignatorNoExpr]
+                              Expression(
+                                TermExpr(
+                                  FactorExpr(
+                                    Const(
+                                      NumConst(
+                                       1
+                                      ) [NumConst]
+                                    ) [Const]
+                                  ) [FactorExpr]
+                                ) [TermExpr]
+                              ) [Expression]
+                            ) [DesignatorExpr]
+                          ) [Var]
+                        ) [FactorExpr]
+                      ) [TermExpr]
+                    ) [Expression]
+                  ) [DesignatorExpr]
+                  Assign(
+                  ) [Assign]
+                  RightSideExpr(
+                    Expression(
+                      TermExpr(
+                        FactorExpr(
+                          Const(
+                            NumConst(
+                             5
+                            ) [NumConst]
+                          ) [Const]
+                        ) [FactorExpr]
+                      ) [TermExpr]
+                    ) [Expression]
+                  ) [RightSideExpr]
+                ) [Assignment]
+              ) [DesStatement]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            PrintStmt(
+              PrintDecl(
+                Expression(
+                  TermExpr(
+                    FactorExpr(
+                      Var(
+                        DesignatorExpr(
+                          DesignatorNoExpr(
+                           niz
+                          ) [DesignatorNoExpr]
+                          Expression(
+                            TermExpr(
+                              FactorExpr(
+                                Const(
+                                  NumConst(
+                                   2
+                                  ) [NumConst]
+                                ) [Const]
+                              ) [FactorExpr]
+                            ) [TermExpr]
+                          ) [Expression]
+                        ) [DesignatorExpr]
+                      ) [Var]
+                    ) [FactorExpr]
+                  ) [TermExpr]
+                ) [Expression]
+              ) [PrintDecl]
+            ) [PrintStmt]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          ReturnExpr(
+            Expression(
+              TermExpr(
+                FactorExpr(
+                  Const(
+                    NumConst(
+                     1
+                    ) [NumConst]
+                  ) [Const]
+                ) [FactorExpr]
+              ) [TermExpr]
+            ) [Expression]
+          ) [ReturnExpr]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  04:23:30,169 - ===================================
+INFO  04:23:30,169 - Pocetak programa  MJProgram na liniji 1
+INFO  04:23:30,169 - Deklarisana lokalna promjenljiva(niz) niz na liniji 2
+INFO  04:23:30,169 - Obradjuje se funkcija main na liniji 5
+INFO  04:23:30,347 - Pristupa se dezignatoru niz na liniji 6
+INFO  04:23:31,434 - Pristupa se dezignatoru niz na liniji 7
+INFO  04:23:31,866 - Pristupa se dezignatoru niz na liniji 7
+INFO  04:23:32,914 - 	Pristup elementu niza niz na liniji 7
+INFO  04:23:33,586 - 	Pristup elementu niza niz na liniji 7

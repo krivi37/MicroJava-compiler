@@ -1,0 +1,18 @@
+// Test3
+
+program test2
+
+	int niz[];
+	const int jedan = 1;
+{
+	void main()
+		int x, y;	
+	{
+		niz= new int[2];
+		niz[0] = 2;
+		niz[1] = -7;
+		niz[0] *= niz[jedan] +=1;
+		print(niz[1]);
+		print(niz[0]);
+	}
+}

@@ -1,0 +1,158 @@
+INFO  15:14:03,534 - Compiling source file: C:\Users\Krivi\Desktop\New folder\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  15:14:03,564 - #2 program
+INFO  15:14:03,564 - #20 MJProgram
+INFO  15:14:03,565 - #20 int
+INFO  15:14:03,565 - #20 niz
+INFO  15:14:03,566 - #5 [
+INFO  15:14:03,566 - #6 ]
+INFO  15:14:03,566 - #7 ;
+INFO  15:14:03,566 - #20 int
+INFO  15:14:03,567 - #20 x
+INFO  15:14:03,567 - #7 ;
+INFO  15:14:03,567 - #20 int
+INFO  15:14:03,567 - #20 y
+INFO  15:14:03,567 - #7 ;
+INFO  15:14:03,567 - #3 {
+INFO  15:14:03,567 - #20 int
+INFO  15:14:03,568 - #20 main
+INFO  15:14:03,568 - #8 (
+INFO  15:14:03,568 - #9 )
+INFO  15:14:03,568 - #3 {
+INFO  15:14:03,569 - #17 read
+INFO  15:14:03,569 - #8 (
+INFO  15:14:03,570 - #20 x
+INFO  15:14:03,570 - #9 )
+ERROR 15:14:03,570 - 
+Sintaksna greska na liniji 8
+INFO  15:14:03,570 - #7 ;
+INFO  15:14:03,570 - #11 print
+INFO  15:14:03,570 - #8 (
+INFO  15:14:03,570 - #20 x
+ERROR 15:14:03,570 - Uspjesan oporavak od greske pri dodjeli vrednosti na liniji 8
+INFO  15:14:03,571 - #9 )
+INFO  15:14:03,571 - #7 ;
+INFO  15:14:03,572 - #12 return
+INFO  15:14:03,572 - #18 0
+INFO  15:14:03,572 - #7 ;
+INFO  15:14:03,572 - #4 }
+INFO  15:14:03,572 - #4 }
+INFO  15:14:03,582 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  ProgDecl(
+    ProgDecl(
+      ProgDecl(
+        NoDecl(
+        ) [NoDecl]
+        DeclItemDerived2(
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            SingleVarDecl(
+              ArrayDecl(
+               niz
+              ) [ArrayDecl]
+            ) [SingleVarDecl]
+          ) [VarDeclList]
+        ) [DeclItemDerived2]
+      ) [ProgDecl]
+      DeclItemDerived2(
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          SingleVarDecl(
+            VarDeclSingle(
+             x
+            ) [VarDeclSingle]
+          ) [SingleVarDecl]
+        ) [VarDeclList]
+      ) [DeclItemDerived2]
+    ) [ProgDecl]
+    DeclItemDerived2(
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        SingleVarDecl(
+          VarDeclSingle(
+           y
+          ) [VarDeclSingle]
+        ) [SingleVarDecl]
+      ) [VarDeclList]
+    ) [DeclItemDerived2]
+  ) [ProgDecl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodName(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethodName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoMethodVarParams(
+      ) [NoMethodVarParams]
+      Statements(
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            MatchedStmt(
+              DesStatement(
+                ErrAssignment(
+                ) [ErrAssignment]
+              ) [DesStatement]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            PrintStmt(
+              Expression(
+                TermExpr(
+                  FactorExpr(
+                    Var(
+                      DesignatorNoExpr(
+                       x
+                      ) [DesignatorNoExpr]
+                    ) [Var]
+                  ) [FactorExpr]
+                ) [TermExpr]
+              ) [Expression]
+            ) [PrintStmt]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          ReturnExpr(
+            Expression(
+              TermExpr(
+                FactorExpr(
+                  Const(
+                    NumConst(
+                     0
+                    ) [NumConst]
+                  ) [Const]
+                ) [FactorExpr]
+              ) [TermExpr]
+            ) [Expression]
+          ) [ReturnExpr]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:14:03,582 - ===================================
+INFO  15:14:03,582 - Pocetak programa  MJProgram na liniji 1
+INFO  15:14:03,582 - Deklarisana lokalna promjenljiva(niz) niz na liniji 2
+INFO  15:14:03,582 - Deklarisana lokalna promjenljiva x na liniji 3
+INFO  15:14:03,582 - Deklarisana lokalna promjenljiva y na liniji 4
+INFO  15:14:03,582 - Obradjuje se funkcija main na liniji 7
+INFO  15:14:03,583 - Pristupa se dezignatoru x na liniji 9
+INFO  15:14:03,583 -  Print count calls = 1
+INFO  15:14:03,583 -  Deklarisanih promenljivih ima = 3
+INFO  15:14:03,583 -  Konstanti ima = 0
+ERROR 15:14:03,584 - Parsiranje NIJE uspesno zavrseno!

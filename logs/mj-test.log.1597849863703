@@ -1,0 +1,103 @@
+INFO  17:10:04,124 - Compiling source file: C:\Users\Krivi\Desktop\New folder\pp1lab.templateAST\workspace\MJCompiler\test\test3.mj
+INFO  17:10:04,155 - #2 program
+INFO  17:10:04,155 - #20 test2
+INFO  17:10:04,155 - #20 int
+INFO  17:10:04,156 - #20 niz
+INFO  17:10:04,157 - #5 [
+INFO  17:10:04,157 - #6 ]
+INFO  17:10:04,157 - #7 ;
+INFO  17:10:04,157 - #3 {
+INFO  17:10:04,158 - #14 void
+INFO  17:10:04,158 - #20 main
+INFO  17:10:04,158 - #8 (
+INFO  17:10:04,158 - #9 )
+INFO  17:10:04,159 - #20 int
+INFO  17:10:04,159 - #20 x
+INFO  17:10:04,159 - #10 ,
+INFO  17:10:04,159 - #20 y
+INFO  17:10:04,159 - #7 ;
+INFO  17:10:04,159 - #3 {
+INFO  17:10:04,159 - #20 niz
+INFO  17:10:04,160 - #13 =
+INFO  17:10:04,160 - #16 new
+INFO  17:10:04,163 - #20 int
+INFO  17:10:04,163 - #5 [
+INFO  17:10:04,163 - #18 3
+INFO  17:10:04,163 - #6 ]
+INFO  17:10:04,163 - #12 return
+ERROR 17:10:04,164 - 
+Sintaksna greska na liniji 11
+INFO  17:10:04,164 - #18 5
+INFO  17:10:04,164 - #7 ;
+INFO  17:10:04,164 - #4 }
+INFO  17:10:04,164 - #4 }
+ERROR 17:10:04,164 - Uspjesan oporavak od greske pri dodjeli vrednosti na liniji 10
+INFO  17:10:04,175 - Program(
+  ProgName(
+   test2
+  ) [ProgName]
+  ProgDecl(
+    NoDecl(
+    ) [NoDecl]
+    DeclItemDerived2(
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        SingleVarDecl(
+          ArrayDecl(
+           niz
+          ) [ArrayDecl]
+        ) [SingleVarDecl]
+      ) [VarDeclList]
+    ) [DeclItemDerived2]
+  ) [ProgDecl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      VoidMethod(
+       main
+      ) [VoidMethod]
+      NoFormParam(
+      ) [NoFormParam]
+      MethodVarParams(
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarDecls(
+            SingleVarDecl(
+              VarDeclSingle(
+               x
+              ) [VarDeclSingle]
+            ) [SingleVarDecl]
+            VarDeclSingle(
+             y
+            ) [VarDeclSingle]
+          ) [VarDecls]
+        ) [VarDeclList]
+      ) [MethodVarParams]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        MatchedStmt(
+          DesStatement(
+            ErrAssignment(
+            ) [ErrAssignment]
+          ) [DesStatement]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:10:04,175 - ===================================
+INFO  17:10:04,175 - Pocetak programa  test2 na liniji 3
+INFO  17:10:04,175 - Deklarisana lokalna promjenljiva(niz) niz na liniji 5
+INFO  17:10:04,175 - Obradjuje se funkcija main na liniji 7
+INFO  17:10:04,175 - Deklarisana lokalna promjenljiva x na liniji 8
+INFO  17:10:04,175 - Deklarisana lokalna promjenljiva y na liniji 8
+INFO  17:10:04,175 -  Print count calls = 0
+INFO  17:10:04,176 -  Deklarisanih promenljivih ima = 1
+INFO  17:10:04,176 -  Konstanti ima = 0
+ERROR 17:10:04,176 - Parsiranje NIJE uspesno zavrseno!

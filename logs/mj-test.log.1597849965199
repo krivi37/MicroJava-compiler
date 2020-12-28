@@ -1,0 +1,149 @@
+INFO  17:11:03,706 - Compiling source file: C:\Users\Krivi\Desktop\New folder\pp1lab.templateAST\workspace\MJCompiler\test\test3.mj
+INFO  17:11:03,736 - #2 program
+INFO  17:11:03,736 - #20 test2
+INFO  17:11:03,736 - #20 int
+INFO  17:11:03,737 - #20 niz
+INFO  17:11:03,737 - #5 [
+INFO  17:11:03,737 - #6 ]
+INFO  17:11:03,737 - #7 ;
+INFO  17:11:03,737 - #3 {
+INFO  17:11:03,738 - #14 void
+INFO  17:11:03,739 - #20 main
+INFO  17:11:03,739 - #8 (
+INFO  17:11:03,739 - #9 )
+INFO  17:11:03,739 - #20 int
+INFO  17:11:03,739 - #20 x
+INFO  17:11:03,739 - #10 ,
+INFO  17:11:03,739 - #20 y
+INFO  17:11:03,739 - #7 ;
+INFO  17:11:03,740 - #3 {
+INFO  17:11:03,740 - #20 niz
+INFO  17:11:03,740 - #13 =
+INFO  17:11:03,740 - #16 new
+INFO  17:11:03,741 - #20 int
+INFO  17:11:03,741 - #5 [
+INFO  17:11:03,741 - #18 3
+INFO  17:11:03,741 - #6 ]
+INFO  17:11:03,742 - #7 ;
+INFO  17:11:03,742 - #12 return
+INFO  17:11:03,742 - #18 5
+INFO  17:11:03,742 - #7 ;
+INFO  17:11:03,742 - #4 }
+INFO  17:11:03,742 - #4 }
+INFO  17:11:03,750 - Program(
+  ProgName(
+   test2
+  ) [ProgName]
+  ProgDecl(
+    NoDecl(
+    ) [NoDecl]
+    DeclItemDerived2(
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        SingleVarDecl(
+          ArrayDecl(
+           niz
+          ) [ArrayDecl]
+        ) [SingleVarDecl]
+      ) [VarDeclList]
+    ) [DeclItemDerived2]
+  ) [ProgDecl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      VoidMethod(
+       main
+      ) [VoidMethod]
+      NoFormParam(
+      ) [NoFormParam]
+      MethodVarParams(
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarDecls(
+            SingleVarDecl(
+              VarDeclSingle(
+               x
+              ) [VarDeclSingle]
+            ) [SingleVarDecl]
+            VarDeclSingle(
+             y
+            ) [VarDeclSingle]
+          ) [VarDecls]
+        ) [VarDeclList]
+      ) [MethodVarParams]
+      Statements(
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          MatchedStmt(
+            DesStatement(
+              Assignment(
+                DesignatorNoExpr(
+                 niz
+                ) [DesignatorNoExpr]
+                Assign(
+                ) [Assign]
+                RightSideExpr(
+                  Expression(
+                    TermExpr(
+                      FactorExpr(
+                        NewArrayType(
+                          Type(
+                           int
+                          ) [Type]
+                          Expression(
+                            TermExpr(
+                              FactorExpr(
+                                Const(
+                                  NumConst(
+                                   3
+                                  ) [NumConst]
+                                ) [Const]
+                              ) [FactorExpr]
+                            ) [TermExpr]
+                          ) [Expression]
+                        ) [NewArrayType]
+                      ) [FactorExpr]
+                    ) [TermExpr]
+                  ) [Expression]
+                ) [RightSideExpr]
+              ) [Assignment]
+            ) [DesStatement]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          ReturnExpr(
+            Expression(
+              TermExpr(
+                FactorExpr(
+                  Const(
+                    NumConst(
+                     5
+                    ) [NumConst]
+                  ) [Const]
+                ) [FactorExpr]
+              ) [TermExpr]
+            ) [Expression]
+          ) [ReturnExpr]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:11:03,750 - ===================================
+INFO  17:11:03,751 - Pocetak programa  test2 na liniji 3
+INFO  17:11:03,751 - Deklarisana lokalna promjenljiva(niz) niz na liniji 5
+INFO  17:11:03,751 - Obradjuje se funkcija main na liniji 7
+INFO  17:11:03,751 - Deklarisana lokalna promjenljiva x na liniji 8
+INFO  17:11:03,751 - Deklarisana lokalna promjenljiva y na liniji 8
+INFO  17:11:03,751 - Pristupa se dezignatoru niz na liniji 10
+ERROR 17:11:03,751 - Greska na liniji 11 : tip izraza u return naredbi ne slaze se sa tipom povratne vrednosti funkcije main
+INFO  17:11:03,751 -  Print count calls = 0
+INFO  17:11:03,751 -  Deklarisanih promenljivih ima = 1
+INFO  17:11:03,752 -  Konstanti ima = 0
+ERROR 17:11:03,752 - Parsiranje NIJE uspesno zavrseno!
